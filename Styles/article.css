@@ -1,0 +1,161 @@
+article{
+    width: 67%;
+    margin: auto;
+}
+.itens-meio{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 90px;
+}
+.itens-meio > div:first-child{
+    text-align: center;
+}
+.essencia{
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: font-1;
+    color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+.vocalista{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+}
+article > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #2F2F2F;
+    font-family: font-1;
+}
+.repertorio{
+    display: flex;
+    justify-content: center;
+}
+.repertorio > iframe {
+    border: none;
+    margin-top: 10px;
+}
+.repertorio > iframe {
+    border-radius: 12px;
+}
+.titulo{
+    font-size: 48px;
+    color: #2F2F2F;
+    font-family: font-1;
+}
+article > .sub-titulo{
+    font-size: 20px;
+    color: #7C7C7C;
+    font-family: font-5;
+    margin-bottom: 55px;
+    font-weight: 100;
+}
+.texto-1{
+    font-size: 16px;
+    font-family: font-5;
+    color: #2F2F2F;
+    line-height: 27px;
+}
+.texto{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #2F2F2F;
+    line-height: 27px;
+    font-family: font-5;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.video > iframe{
+    border-radius: 10px;
+    border: none;
+}
+.felipe-pezzoni > figcaption {
+    font-size: 14px;
+    color: #7C7C7C;
+    margin-top: 5px;
+    font-family: font-5;
+}
+.felipe-pezzoni > img{
+    height: 300px;
+    width: 430px;
+}
+.play{
+    margin-top: 40px;
+}
+.play > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.play > ul > li > p {
+    text-transform: uppercase;
+}
+.imagem-play{
+    border: 2px solid #D51C17;
+    border-radius: 100px;
+    padding: 20px;
+    height: 10px;
+    width: 10px;
+}
+.imagem-play > img {
+    width: 13px;
+    margin: auto;
+}
+.texto-play{
+    color: #D51C17;
+    font-size: 14px;
+    font-family: font-1;
+}
+.texto-play-1{
+    color: #9F9F9F;
+    font-size: 12px;
+    font-family: font-5;
+}
+.difficulty > h2{
+    color: #2F2F2F;
+    font-size: 36px;
+    margin-top: 50px;
+    font-family: font-1;
+}
+.texto-2{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #2F2F2F;
+    line-height: 27px;
+    font-family: font-5;
+    margin-bottom: 40px;
+}
+section > .textoVermelho{
+    color: #D51C17;
+    margin: auto;
+    font-size: 24px;
+    font-family: font-1;
+    background: none;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.imageFinal{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.imageFinal > figcaption {
+    color: #7C7C7C;
+    font-size: 12px;
+    font-family: font-5;
+    margin-top: 10px;
+}

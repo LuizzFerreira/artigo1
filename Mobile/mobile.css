@@ -1,0 +1,181 @@
+@media (max-width: 420px){
+    .ouvir, .lateral-right, .lateral-right-1{
+        margin-top: 90px;
+    }
+}
+@media (max-width: 600px){
+    .btnMobile{
+        display: flex;
+    }   
+    .btnMobile > button {
+        display: flex;
+        background: none;
+        border: none;
+    }
+    .dsplay{
+        display: none;
+    }
+    .imagem-cantor > img {
+        height: 180px;
+    }
+    .retangulo-central{
+        margin-top: 0;
+    }
+    .reporter-massa{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .item3 > a{
+        display: none;
+    }
+    .item5{
+        display: none;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .sub-titulo{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .itens-meio{
+        display: block;
+    }
+    .itens-meio > div:first-child {
+        width: 100%;
+        margin: auto;
+    }
+    .difficulty > .h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .repertorio > iframe {
+        height: 370px;
+    }
+    .felipe-pezzoni > img{
+        height: 226px;
+        width: 320px;
+    }
+    .felipe-pezzoni > p{
+        font-size: 10px;
+    }
+    .itens-meio-1 > img{
+        height: 50px;
+    }
+    .essencia{
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+    }
+    .hamburger{
+        border-top: 2px solid #D51C17;
+        width: 20px;
+    }
+    .hamburger::after, .hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #D51C17;
+        margin-top: 5px;
+    }
+    .vocalista{
+        margin-bottom: 40px;
+    }
+    .resto{
+        display: none;
+    }
+    .laterais{
+        margin-top: 320px;
+    }
+    .lateral-right-1{
+        display: flex;
+    }
+    .texto-1{
+        margin-top: 150px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+    .video > iframe{
+        height: 180px;
+    }
+    .slider-container {
+        width: 320px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+    footer > .colunas {
+        width: 70%;
+    }
+    .leia-tbm{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .imageFinal > img {
+        width: 300px;
+        height: 186px;
+    }
+}
+@media ( max-width: 866px){
+    .itens-meio{
+        display: block;
+    }
+    .essencia{
+        width: 95%;
+        margin: auto;
+    }
+    .felipe-pezzoni{
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 990px){
+    .item5{
+        display: none;
+    }
+    .item3 > a{
+        display: none;
+    }
+    .dsplay{
+        display: none;
+    }
+    .leia-tbm{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .music1{
+        display: block;
+    }
+    .musicas > .music1 > article{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+    .colunas {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .laterais{
+        width: 55%;
+    }
+}
+@media (max-width: 1200px){
+    .colunas{
+        width: 95%;
+    }
+}
